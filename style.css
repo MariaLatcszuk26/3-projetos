@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/ccs2?family=chakra+petch:ital,wht@0,300;0,400;0.500;600;0;700;1,300,1,400");
+
+
+
+:root{
+    --cor-principal:  #e077c1;
+     --cor-secundaria:#000000;
+     --cor-destaque:  #00FFFF;
+}
+
+
+ body {
+     color: var(--cor-principal);
+ }
+
+ h1,h2,h5 { 
+    color: var(--cor-secundaria);
+    font-weight: 700;
+ }
+
+ .lead,.btn-link {
+    color: var(--cor-destaque);
+    font-weight: 700;
+ }
+
+ a, .btn-link:houver {
+    color:var(--cor-principal)
+ }
+
+ a:hover{
+    color:var(--cor-destaque);
+ }
+
+    
+ 
+
