@@ -1,16 +1,17 @@
-@import url("https://fonts.googleapis.com/ccs2?family=chakra+petch:ital,wht@0,300;0,400;0.500;600;0;700;1,300,1,400");
+@import url("https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap");
 
 
 
 :root{
-    --cor-principal:  #e077c1;
+    --cor-principal:  #f60fb1;
      --cor-secundaria:#000000;
-     --cor-destaque:  #00FFFF;
+     --cor-destaque:  #49d3ec;
 }
 
 
  body {
      color: var(--cor-principal);
+     font-weight: 700;
  }
 
  h1,h2,h5 { 
@@ -18,16 +19,16 @@
     font-weight: 700;
  }
 
- .lead,.btn-link {
+ .lead.btn-link {
     color: var(--cor-destaque);
     font-weight: 700;
  }
 
- a, .btn-link:houver {
+ a .btn-link:houver {
     color:var(--cor-principal)
  }
 
- a:hover{
+ a:hover {
     color:var(--cor-destaque);
  }
 
